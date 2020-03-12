@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
@@ -19,6 +19,5 @@ let package = Package(
         .target(
             name: "EllipticCurveKeyPair",
             path: "Sources"),
-    ],
-    swiftLanguageVersions: [3]
+    ]
 )
