@@ -20,5 +20,5 @@ let package = Package(
             name: "EllipticCurveKeyPair",
             path: "Sources"),
     ],
-    swiftLanguageVersions: [.version("4.0")]
+    swiftLanguageVersions: [.version("3")]
 )
