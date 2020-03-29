@@ -3,6 +3,10 @@ import PackageDescription
 
 let package = Package(
     name: "EllipticCurveKeyPair",
+    platforms: [
+        .macOS("10.12.1"),
+        .iOS(.v9),
+    ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
